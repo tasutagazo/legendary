@@ -1,0 +1,170 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	font-family: sans-serif;
+}
+.col-2 {
+	float: left;
+	width: 16.67%;
+}
+
+.col-3 {
+	width: 25%;
+	float: left;
+}
+.col-4 {
+	width: 33.3%;
+		float: left;
+}
+.col-8 {
+	width: 66.6%;
+		float: left;
+}
+.col-9 {
+	width: 75%;
+		float: left;
+}
+.qwer {
+	width: 200px;
+	height: 200px;
+}
+#myImg {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: -100%;
+    top: 115px;
+    z-index: 1;
+}
+#decorator {
+height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 255px;
+    left: -100%;
+}
+#myCap {
+    height: 120px;
+    width: 121px;
+    left: -100%;
+    top: 57px;
+    position: absolute;
+    z-index: 5;
+}
+#mySpec {
+	top: 115px;
+    left: -100%;
+    position: absolute;
+    height: 120px;
+    z-index: 2;
+    width: 150px;
+}
+#initiator, #initiator2, #initiator3, #initiator4 {
+	margin-top: 800px;
+	display: none;
+	background: red;
+	margin: auto;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	position: absolute;
+	top: 60%;
+	padding: 15px;
+	width: 50%;
+	left: 25%;
+}
+.fileContainer {
+    overflow: hidden;
+    position: relative;
+}
+
+.fileContainer [type=file] {
+    cursor: inherit;
+    display: block;
+    font-size: 999px;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+
+/* Example stylistic flourishes */
+
+.fileContainer {
+    background: #FAB516;
+    border-radius: .5em;
+    float: left;
+    width: 25%;
+    margin-left: 37.5%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-top: 40px;
+}
+
+.fileContainer [type=file] {
+    cursor: pointer;
+}
+#first_content {
+	text-align: center;
+	font-size: 2.6em;
+	color: #00a2e3;
+	font-weight: bold;
+	display: none;
+	margin-top: 310px;
+}
+#identifier {
+	text-align: center;
+	margin-top: 10px;
+	font-weight: bold;
+	color: #00a2e3;
+	display: none;
+	font-size: 1.6em;
+}
+
